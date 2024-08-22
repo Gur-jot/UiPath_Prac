@@ -158,7 +158,7 @@
                       <x:Boolean x:Key="IsExpanded">True</x:Boolean>
                     </scg:Dictionary>
                   </sap:WorkflowViewStateService.ViewState>
-                  <ui:MessageBox Caption="{x:Null}" ChosenButton="{x:Null}" AutoCloseAfter="00:00:00" DisplayName="Message Box" sap:VirtualizedContainerService.HintSize="452,117" sap2010:WorkflowViewState.IdRef="MessageBox_3" Text="[&quot;File Name: Empty File&quot;]" />
+                  <ui:MessageBox Caption="{x:Null}" ChosenButton="{x:Null}" AutoCloseAfter="00:00:00" DisplayName="Message Box" sap:VirtualizedContainerService.HintSize="452,117" sap2010:WorkflowViewState.IdRef="MessageBox_3" Text="[&quot;File Name:  Completly Empty File&quot;]" />
                   <ui:LogMessage DisplayName="Log Message" sap:VirtualizedContainerService.HintSize="452,173" sap2010:WorkflowViewState.IdRef="LogMessage_1" Level="Info" Message="[&quot;File Name: Empty File&quot;]" />
                   <ui:AppendLine File="{x:Null}" DisplayName="Append Line" FileName="Unprocessed.txt" sap:VirtualizedContainerService.HintSize="452,165" sap2010:WorkflowViewState.IdRef="AppendLine_1" Text="[CurrentFile.ToString + &quot; Is empty&quot;]" UseDefaultEncoding="False" />
                   <ui:CommentOut DisplayName="Comment Out" sap:VirtualizedContainerService.HintSize="452,346" sap2010:WorkflowViewState.IdRef="CommentOut_2">
@@ -202,7 +202,7 @@
                             <uix:NGetText.Target>
                               <uix:TargetAnchorable BrowserURL="https://acme-test.uipath.com/work-items?page=1" CVScreenId="0fd9893d-2854-45f5-8e9a-03a4c477d387" CvTextArea="533, 373, 190, 13" CvType="AnyWordGroup" DesignTimeRectangle="429, 361, 399, 39" DesignTimeScaleFactor="1" ElementType="Text" FullSelectorArgument="&lt;webctrl tag='TABLE' /&gt;&lt;webctrl isleaf='1' tableCol='3' tableRow='2' tag='TD' /&gt;" FuzzySelectorArgument="&lt;webctrl tag='TABLE' /&gt;&lt;webctrl isleaf='1' type='' class='' tag='TD' /&gt;" Guid="7d26e8b6-a8d6-421e-aef4-7001cf3b10da" InformativeScreenshot="725fffa1461411aaf706a4062315c5ee.png" ScopeSelectorArgument="&lt;html app='msedge.exe' title='ACME System 1 - Work Items' /&gt;" SearchSteps="FuzzySelector, CV" Version="V4" Visibility="Interactive">
                                 <uix:TargetAnchorable.Anchors>
-                                  <scg:List x:TypeArguments="uix:ITarget" Capacity="4">
+                                  <scg:List x:TypeArguments="uix:ITarget" Capacity="1">
                                     <uix:Target CVScreenId="0fd9893d-2854-45f5-8e9a-03a4c477d387" CvTextArea="436, 336, 79, 16" CvTextArgument="Description" CvType="Text" DesignTimeRectangle="429, 324, 399, 37" ElementType="Text" FullSelectorArgument="&lt;webctrl tag='TABLE' /&gt;&lt;webctrl aaname='Description' tableRow='1' tag='TH' /&gt;" FuzzySelectorArgument="&lt;webctrl tag='TABLE' /&gt;&lt;webctrl aaname='Description' type='' tag='TH' class='' check:innerText='Description' /&gt;" Guid="5fa54174-70bd-4499-afb0-7e5c15f90891" SearchSteps="FuzzySelector, CV" />
                                   </scg:List>
                                 </uix:TargetAnchorable.Anchors>
